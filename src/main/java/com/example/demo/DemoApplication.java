@@ -18,11 +18,11 @@ public class DemoApplication {
 @RequestMapping
 class controller{
     @GetMapping
-    public String hello(){
+    public String test(){
         return "google Cloud";
     }
     @GetMapping("/v1")
-    public String hello1(){
+    public String testSecondVersion(){
         return "google Cloud with v1";
     }
 
